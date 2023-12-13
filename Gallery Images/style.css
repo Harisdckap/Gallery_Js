@@ -1,0 +1,237 @@
+:root {
+    --primary-1: hsl(205, 86%, 17%);
+    --primary-2: hsl(205, 77%, 27%);
+    --primary-3: hsl(205, 72%, 37%);
+    --primary-4: hsl(205, 63%, 48%);
+    --primary-5: hsl(205, 78%, 60%);
+
+    /* lighter shades of primary color */
+    --primary-6: hsl(205, 89%, 70%);
+    --primary-7: hsl(205, 90%, 76%);
+    --primary-8: hsl(205, 86%, 81%);
+    --primary-9: hsl(205, 90%, 88%);
+    --primary-10: hsl(205, 100%, 96%);
+
+    /* darkest grey - used for headings */
+    --grey-1: hsl(209, 61%, 16%);
+    --grey-2: hsl(211, 39%, 23%);
+    --grey-3: hsl(209, 34%, 30%);
+    --grey-4: hsl(209, 28%, 39%);
+
+    /* grey used for paragraphs */
+    --grey-5: hsl(210, 22%, 49%);
+    --grey-6: hsl(209, 23%, 60%);
+    --grey-7: hsl(211, 27%, 70%);
+    --grey-8: hsl(210, 31%, 80%);
+    --grey-9: hsl(212, 33%, 89%);
+    --grey-10: hsl(210, 36%, 96%);
+    --white: #fff;
+    --red-dark: hsl(360, 67%, 44%);
+    --red-light: hsl(299, 71%, 66%);
+    --red-pink: hsl(0, 54%, 56%);
+    --dark-pink: #AA336A;
+    --green-dark: hsl(125, 67%, 44%);
+    --green-light: hsl(125, 71%, 66%);
+    --black: #222;
+    --black1: rgba(34, 34, 34, 0.673);
+    --blackdarktheme: rgba(34, 34, 34, 0.881);
+    --blackcolor: rgba(34, 34, 34, 0.651);
+    --blackligthdark: rgba(34, 34, 34, 0.828);
+
+    --primaryfont: "Roboto", sans-serif;
+    --secondaryfont: "Open Sans";
+    --fontfamily: Lucida;
+
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --lightdark-shadow: 5px 0px 15px rgba(0, 0, 0, 0.3);
+
+    --max-width: 1294px;
+    --heigth: 700px;
+    --max-heigth: 820px;
+    --fixed-width: 620px;
+    --fontsize: 30px;
+    --padding: 20px;
+    --display: flex;
+    --border: none;
+    --cursor: pointer
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    max-width: var(--max-width);
+    max-height: var(--max-heigth);
+}
+
+#img_contain {
+    display: var(--display);
+    width: 100%;
+    justify-content: center;
+}
+
+.img_nature {
+    width: 25%;
+    height: 240px;
+    padding: 18px;
+}
+
+#img_contain_child {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+.img_city {
+    width: 25%;
+    height: 240px;
+    padding: 18px;
+}
+
+#modal_imgs {
+    width: 100%;
+}
+
+.close-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.Tot_image {
+    width: 100%;
+}
+
+button.prev-btn {
+    width: 52px;
+    height: 25px;
+    position: relative;
+    top: 280px;
+    background-color: black;
+}
+
+button.next-btn {
+    width: 52px;
+    height: 25px;
+    position: relative;
+    top: 280px;
+    background-color: black;
+
+}
+
+h3.image-name {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 8px;
+    font-family: system-ui;
+
+}
+
+#modal_imgs {
+    background-color: black;
+    width: 100%;
+}
+
+#modal_imgs1 {
+    background-color: black;
+}
+
+img.main-img1 {
+    width: 50%;
+    height: 375px;
+}
+
+.main_img {
+    display: flex;
+    margin: auto;
+    width: 90%;
+
+}
+
+
+
+.modal-images {
+    display: flex;
+    width: 100%;
+}
+
+.modal-images1 {
+    display: flex;
+    width: 38%;
+}
+
+.modal-img,
+.modal-img1 {
+    width: 50%;
+    height: 227px;
+    margin: 7px;
+    background-color: #222;
+    cursor: pointer;
+
+}
+
+.opac {
+    opacity: 1;
+}
+
+img.main-img,
+.main-img1 {
+    max-width: 50%;
+    margin: auto;
+    max-height: 357px;
+    width: 50%;
+
+}
+
+#close_bts {
+    display: flex;
+    width: 2%;
+    height: 20px;
+    position: relative;
+    margin-left: 95%;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: 30px;
+}
+
+.dis-n {
+    display: none;
+}
+
+
+.display {
+    display: none;
+}
+
+.display1 {
+    display: none;
+}
+
+button.btn,
+button.btn1 {
+    width: 63px;
+    height: 68px;
+    position: relative;
+    top: 145px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.opacity {
+    opacity: 0.2;
+}
+
+.opa_none {
+    opacity: 1;
+}
